@@ -29,6 +29,7 @@ export class MyCartPage {
 
   removeItem(index){
     console.log(this.cartProvaider.removeItem(index));
+    this.cartProvaider.removeItem(index);
   }
 
 }
