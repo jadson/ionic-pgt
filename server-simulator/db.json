@@ -1,0 +1,308 @@
+{
+    "products": [
+  {
+    "id": 1,
+    "name": "proident dolore",
+    "price": 361.157,
+    "picture": "http://placehold.it/32x"
+  },
+  {
+    "id": 2,
+    "name": "elit laboris",
+    "price": 982.7447,
+    "picture": "http://placehold.it/32x"
+  },
+  {
+    "id": 3,
+    "name": "eiusmod pariatur",
+    "price": 911.5577,
+    "picture": "http://placehold.it/32x"
+  },
+  {
+    "id": 4,
+    "name": "dolor sunt",
+    "price": 554.6345,
+    "picture": "http://placehold.it/32x"
+  },
+  {
+    "id": 5,
+    "name": "eu culpa",
+    "price": 763.5663,
+    "picture": "http://placehold.it/32x"
+  },
+  {
+    "id": 6,
+    "name": "mollit velit",
+    "price": 889.0287,
+    "picture": "http://placehold.it/32x"
+  },
+  {
+    "id": 7,
+    "name": "do sit",
+    "price": 383.3907,
+    "picture": "http://placehold.it/32x"
+  },
+  {
+    "id": 8,
+    "name": "duis mollit",
+    "price": 77.5285,
+    "picture": "http://placehold.it/32x"
+  },
+  {
+    "id": 9,
+    "name": "irure ut",
+    "price": 25.6201,
+    "picture": "http://placehold.it/32x"
+  },
+  {
+    "id": 10,
+    "name": "eu exercitation",
+    "price": 507.116,
+    "picture": "http://placehold.it/32x"
+  },
+  {
+    "id": 11,
+    "name": "velit reprehenderit",
+    "price": 653.0717,
+    "picture": "http://placehold.it/32x"
+  },
+  {
+    "id": 12,
+    "name": "occaecat magna",
+    "price": 916.4488,
+    "picture": "http://placehold.it/32x"
+  },
+  {
+    "id": 13,
+    "name": "do ea",
+    "price": 84.0376,
+    "picture": "http://placehold.it/32x"
+  },
+  {
+    "id": 14,
+    "name": "laborum enim",
+    "price": 608.2355,
+    "picture": "http://placehold.it/32x"
+  },
+  {
+    "id": 15,
+    "name": "magna ut",
+    "price": 465.1871,
+    "picture": "http://placehold.it/32x"
+  },
+  {
+    "id": 16,
+    "name": "aliquip proident",
+    "price": 328.8231,
+    "picture": "http://placehold.it/32x"
+  },
+  {
+    "id": 17,
+    "name": "labore commodo",
+    "price": 129.3115,
+    "picture": "http://placehold.it/32x"
+  },
+  {
+    "id": 18,
+    "name": "mollit nisi",
+    "price": 720.2983,
+    "picture": "http://placehold.it/32x"
+  },
+  {
+    "id": 19,
+    "name": "culpa dolor",
+    "price": 500.0035,
+    "picture": "http://placehold.it/32x"
+  },
+  {
+    "id": 20,
+    "name": "deserunt exercitation",
+    "price": 535.208,
+    "picture": "http://placehold.it/32x"
+  },
+  {
+    "id": 21,
+    "name": "eiusmod et",
+    "price": 575.1365,
+    "picture": "http://placehold.it/32x"
+  },
+  {
+    "id": 22,
+    "name": "duis id",
+    "price": 131.415,
+    "picture": "http://placehold.it/32x"
+  },
+  {
+    "id": 23,
+    "name": "laborum incididunt",
+    "price": 658.9254,
+    "picture": "http://placehold.it/32x"
+  },
+  {
+    "id": 24,
+    "name": "non id",
+    "price": 859.6648,
+    "picture": "http://placehold.it/32x"
+  },
+  {
+    "id": 25,
+    "name": "consequat id",
+    "price": 484.2308,
+    "picture": "http://placehold.it/32x"
+  },
+  {
+    "id": 26,
+    "name": "cillum aliqua",
+    "price": 424.4229,
+    "picture": "http://placehold.it/32x"
+  },
+  {
+    "id": 27,
+    "name": "voluptate enim",
+    "price": 931.2334,
+    "picture": "http://placehold.it/32x"
+  },
+  {
+    "id": 28,
+    "name": "ullamco duis",
+    "price": 809.2763,
+    "picture": "http://placehold.it/32x"
+  },
+  {
+    "id": 29,
+    "name": "dolor id",
+    "price": 199.4643,
+    "picture": "http://placehold.it/32x"
+  },
+  {
+    "id": 30,
+    "name": "aliquip ea",
+    "price": 62.1637,
+    "picture": "http://placehold.it/32x"
+  },
+  {
+    "id": 31,
+    "name": "veniam irure",
+    "price": 367.4665,
+    "picture": "http://placehold.it/32x"
+  },
+  {
+    "id": 32,
+    "name": "irure nulla",
+    "price": 70.9637,
+    "picture": "http://placehold.it/32x"
+  },
+  {
+    "id": 33,
+    "name": "incididunt minim",
+    "price": 982.84,
+    "picture": "http://placehold.it/32x"
+  },
+  {
+    "id": 34,
+    "name": "cupidatat veniam",
+    "price": 233.2072,
+    "picture": "http://placehold.it/32x"
+  },
+  {
+    "id": 35,
+    "name": "id ad",
+    "price": 132.0088,
+    "picture": "http://placehold.it/32x"
+  },
+  {
+    "id": 36,
+    "name": "labore veniam",
+    "price": 866.5747,
+    "picture": "http://placehold.it/32x"
+  },
+  {
+    "id": 37,
+    "name": "veniam adipisicing",
+    "price": 816.6145,
+    "picture": "http://placehold.it/32x"
+  },
+  {
+    "id": 38,
+    "name": "consequat dolor",
+    "price": 663.8716,
+    "picture": "http://placehold.it/32x"
+  },
+  {
+    "id": 39,
+    "name": "ullamco laboris",
+    "price": 288.7926,
+    "picture": "http://placehold.it/32x"
+  },
+  {
+    "id": 40,
+    "name": "voluptate consectetur",
+    "price": 603.6341,
+    "picture": "http://placehold.it/32x"
+  },
+  {
+    "id": 41,
+    "name": "Lorem exercitation",
+    "price": 47.5394,
+    "picture": "http://placehold.it/32x"
+  },
+  {
+    "id": 42,
+    "name": "dolor nisi",
+    "price": 964.2839,
+    "picture": "http://placehold.it/32x"
+  },
+  {
+    "id": 43,
+    "name": "proident nisi",
+    "price": 104.6321,
+    "picture": "http://placehold.it/32x"
+  },
+  {
+    "id": 44,
+    "name": "laboris cillum",
+    "price": 856.9492,
+    "picture": "http://placehold.it/32x"
+  },
+  {
+    "id": 45,
+    "name": "reprehenderit magna",
+    "price": 882.0153,
+    "picture": "http://placehold.it/32x"
+  },
+  {
+    "id": 46,
+    "name": "do aliquip",
+    "price": 434.1825,
+    "picture": "http://placehold.it/32x"
+  },
+  {
+    "id": 47,
+    "name": "commodo ad",
+    "price": 734.5746,
+    "picture": "http://placehold.it/32x"
+  },
+  {
+    "id": 48,
+    "name": "veniam nisi",
+    "price": 162.2346,
+    "picture": "http://placehold.it/32x"
+  },
+  {
+    "id": 49,
+    "name": "fugiat amet",
+    "price": 186.8164,
+    "picture": "http://placehold.it/32x"
+  },
+  {
+    "id": 50,
+    "name": "eiusmod fugiat",
+    "price": 152.6182,
+    "picture": "http://placehold.it/32x"
+  }
+],
+"categoria":[
+  {"nome":"categoria 1"},
+  {"nome":"categoria 2"}
+]
+}
