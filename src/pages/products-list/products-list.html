@@ -24,8 +24,9 @@
 <ion-content padding>
   <hr>
   <!--<ion-list *ngIf= "(products|async)?.length>0;else loading">-->
+
   <ion-list *ngIf= "products|async;else loading">
-    <ion-item *ngFor="let produto of products | async;">
+    <ion-item *ngFor="let produto of products | async">
       <ion-thumbnail item-start navPush="ProductDetail" [navParams]="{product:produto.id}">
         <img [src]="produto.picture">
       </ion-thumbnail>

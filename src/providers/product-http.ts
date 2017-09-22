@@ -13,7 +13,7 @@ import 'rxjs/add/operator/map';
 export class ProductHttp {
 
   constructor(public http: Http) {
-    console.log('Hello ProductHttpProvider Provider');
+    console.log('product-http.ts -> Constructor http');
   }
 
   query():Observable<Array<any>>{
@@ -21,7 +21,7 @@ export class ProductHttp {
       .map(response =>response.json());
   }
 
-  get(id: number):Observable<Array<Object>>{
+  get(id: number):Observable<Object>{
     return this.http.get(`http://localhost:3000/products/${id}`)
        .map(response =>response.json());
    }

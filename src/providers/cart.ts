@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import {Http} from '@angular/http';
 import 'rxjs/add/operator/map';
 
 /*
@@ -18,7 +19,7 @@ export class CartProvider {
   }
 
   removeItem(index){
-    this.items.slice(index,1);
+    this.items.splice(index,1);
     this.calculateTotal();
   }
 

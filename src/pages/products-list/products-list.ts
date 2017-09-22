@@ -1,4 +1,4 @@
-import { CartProvider } from './../../providers/cart';
+import { CartProvider } from '../../providers/cart';
 import { Observable } from 'rxjs/Rx';
 import { ProductHttp } from '../../providers/product-http';
 import { Component } from '@angular/core';
@@ -30,8 +30,10 @@ export class ProductsListPage {
   }
 
   ionViewDidLoad() {
-    this.products = this.productHttp.query();
-  }
+    setTimeout(() => {
+        this.products = this.productHttp.query();
+    },500);
+}
 
   addItem(product){
     this.cartProvaider.addItem(product);

@@ -1,0 +1,68 @@
+<!--
+  Generated template for the CheckoutPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>checkout</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <div padding>
+    <ion-segment [(ngModel)]="paymentMethod">
+
+      <ion-segment-button *ngFor="let payment of paymentMethods" [value]="payment.name" >
+          {{payment.name}}
+      </ion-segment-button>
+
+    </ion-segment>
+  </div>
+  <div [ngSwitch]="paymentMethod">
+    <div *ngSwitchCase="'BOLETO'">
+      Área do Boleto
+    </div>
+    <div *ngSwitchCase="'CREDIT_CARD'">
+
+      <ion-item>
+        <ion-label>Número do Cartão</ion-label>
+        <ion-input type="text" [(ngModel)]="creditCard.num"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>Código de Segurança</ion-label>
+        <ion-input type="text" [(ngModel)]="creditCard.cvv"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>Mês de Expiração</ion-label>
+        <ion-input type="text" [(ngModel)]="creditCard.monthExp"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>Ano de Expiração</ion-label>
+        <ion-input type="text" [(ngModel)]="creditCard.yearExp"></ion-input>
+      </ion-item>
+
+
+    </div>
+    <div *ngSwitchCase="'BALANCE'">
+        Area do BALANÇO
+      </div>
+  </div>
+  <ion-card>
+    <ion-card-header text-center>
+      Total a pagar: <strong>{{cart.total}}</strong>
+    </ion-card-header>
+    <ion-card-content>
+        <button ion-button full (click)="makePayment()">Concluir Pagamento</button>
+    </ion-card-content>
+  </ion-card>
+
+
+</ion-content>

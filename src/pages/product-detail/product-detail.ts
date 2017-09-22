@@ -17,10 +17,10 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class ProductDetailPage {
 
-  public product:Observable<Object>
+  public product:Observable<Object>;
 
   constructor(
-    public navCtrl: NavController, 
+    public navCtrl: NavController,
     public navParams: NavParams,
     public productHttp: ProductHttp) {
   }
