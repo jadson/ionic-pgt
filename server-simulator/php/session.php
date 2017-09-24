@@ -10,7 +10,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 header('Access-Control-Allow-Origin: *');
 
 putenv('PAGSEGURO_EMAIL=jadson@dominio.com.br');
-putenv('PAGSEGURO_TOKEN_SANDBOX=11111111111111111111111111111');
+putenv('PAGSEGURO_TOKEN_SANDBOX=11111');
 putenv('PAGSEGURO_ENV=sandbox');
 
 \PagSeguro\Library::initialize();

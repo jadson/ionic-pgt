@@ -21,7 +21,6 @@ export class CheckoutPage {
 
   @ViewChild(Segment)
     segment: Segment;
-
   paymentMethod='BOLETO';
   paymentMethods:Array<any>=[];
 
@@ -95,7 +94,7 @@ export class CheckoutPage {
       this.prepareCreditCard().then(()=>{
         (<any>data).token = this.creditCard.token;
         doPayment();
-        console.log('Requisição enviada com SUCESSOOO!!!!!!!!!!!');
+        console.log('Requisição enviada com SUCESSOOO!!!!!!!!!!');
       },(error)=>console.log(error));
       return;
     }

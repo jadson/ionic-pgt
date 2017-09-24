@@ -6,7 +6,7 @@ header('Access-Control-Allow-Origin: *');
 header('Access-Control-Allow-Headers: Content-Type');
 
 putenv('PAGSEGURO_EMAIL=jadson@dominio.com.br');
-putenv('PAGSEGURO_TOKEN_SANDBOX=11111111111111111111111111111');
+putenv('PAGSEGURO_TOKEN_SANDBOX=111111');
 putenv('PAGSEGURO_ENV=sandbox');
 
 \PagSeguro\Library::initialize();
